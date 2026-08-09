@@ -1,0 +1,17 @@
+# Dependabot for GitHub Actions + Composer (dev tooling)
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: composer
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    ignore:
+      # Platform extension is not installable on CI runners.
+      - dependency-name: "ext-cuda"

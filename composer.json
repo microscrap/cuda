@@ -1,0 +1,55 @@
+{
+    "name": "microscrap/cuda",
+    "description": "CUDA Runtime Bindings for The PHP CUDA Extension",
+    "type": "library",
+    "version": "0.7.0",
+    "keywords": ["framework", "scrapyard-io", "cuda", "bindings"],
+    "license": "MIT",
+    "homepage": "https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/cuda/0.7.x/overview",
+    "support": {
+        "docs": "https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/cuda/0.7.x/overview",
+        "issues": "https://github.com/DeptOfScrapyardRobotics/cuda/issues",
+        "source": "https://github.com/DeptOfScrapyardRobotics/cuda"
+    },
+    "authors": [
+        {
+            "name": "Angel Gonzalez",
+            "email": "angel@projectsaturnstudios.com"
+        }
+    ],
+    "require": {
+        "php": "^8.4|^8.5|^8.6",
+        "ext-cuda": "^0.7.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Microscrap\\Bindings\\CUDA\\": "src/"
+        },
+        "files": [
+            "src/Helpers/cuda-runtime.php",
+            "src/Helpers/cuda-gl.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DeptOfScrapyardRobotics\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.7.x-dev",
+            "dev-main": "0.7.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
