@@ -79,6 +79,41 @@ if (! function_exists('cudaGL_launchPlasma')) {
     }
 }
 
+if (! function_exists('cudaGL_launchClear')) {
+    function cudaGL_launchClear(CudaDevicePtr $dst, int $width, int $height, int $rgba): int
+    {
+        return CudaGL::launchClear($dst, $width, $height, $rgba);
+    }
+}
+
+if (! function_exists('cudaGL_launchFillRect')) {
+    function cudaGL_launchFillRect(
+        CudaDevicePtr $dst,
+        int $fbW,
+        int $fbH,
+        int $x,
+        int $y,
+        int $w,
+        int $h,
+        int $rgba
+    ): int {
+        return CudaGL::launchFillRect($dst, $fbW, $fbH, $x, $y, $w, $h, $rgba);
+    }
+}
+
+if (! function_exists('cudaGL_launchWritePixel')) {
+    function cudaGL_launchWritePixel(
+        CudaDevicePtr $dst,
+        int $fbW,
+        int $fbH,
+        int $x,
+        int $y,
+        int $rgba
+    ): int {
+        return CudaGL::launchWritePixel($dst, $fbW, $fbH, $x, $y, $rgba);
+    }
+}
+
 if (! function_exists('cudaGL_uploadPBOToTexture')) {
     function cudaGL_uploadPBOToTexture(int $glBuffer, int $glTexture, int $width, int $height): void
     {

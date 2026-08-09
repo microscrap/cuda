@@ -2,14 +2,14 @@
     "name": "microscrap/cuda",
     "description": "CUDA Runtime Bindings for The PHP CUDA Extension",
     "type": "library",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "keywords": ["framework", "scrapyard-io", "cuda", "bindings"],
     "license": "MIT",
     "homepage": "https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/cuda/0.7.x/overview",
     "support": {
         "docs": "https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/cuda/0.7.x/overview",
-        "issues": "https://github.com/DeptOfScrapyardRobotics/cuda/issues",
-        "source": "https://github.com/DeptOfScrapyardRobotics/cuda"
+        "issues": "https://github.com/microscrap/cuda/issues",
+        "source": "https://github.com/microscrap/cuda"
     },
     "authors": [
         {

@@ -3,7 +3,7 @@
 [![Docs](https://img.shields.io/badge/docs-0.7.x-0A7EA4?logo=readthedocs&logoColor=white)](https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/cuda/0.7.x/overview)
 [![PHP](https://img.shields.io/badge/php-%E2%89%A5%208.4-777bb4?logo=php&logoColor=white)](https://www.php.net)
 [![ext-cuda](https://img.shields.io/badge/ext--cuda-%5E0.7.0-76B900)](https://github.com/php-io-extensions/cuda)
-[![Tests](https://github.com/DeptOfScrapyardRobotics/cuda/actions/workflows/tests.yml/badge.svg)](https://github.com/DeptOfScrapyardRobotics/cuda/actions/workflows/tests.yml)
+[![Tests](https://github.com/microscrap/cuda/actions/workflows/tests.yml/badge.svg)](https://github.com/microscrap/cuda/actions/workflows/tests.yml)
 [![Packagist Version](https://img.shields.io/packagist/v/microscrap/cuda.svg?label=packagist)](https://packagist.org/packages/microscrap/cuda)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](#license)
 
