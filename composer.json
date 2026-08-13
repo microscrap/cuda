@@ -2,7 +2,7 @@
     "name": "microscrap/cuda",
     "description": "CUDA Runtime Bindings for The PHP CUDA Extension",
     "type": "library",
-    "version": "0.7.1",
+    "version": "0.7.2",
     "keywords": ["framework", "scrapyard-io", "cuda", "bindings"],
     "license": "MIT",
     "homepage": "https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/cuda/0.7.x/overview",

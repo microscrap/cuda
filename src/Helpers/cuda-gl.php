@@ -101,6 +101,13 @@ if (! function_exists('cudaGL_launchFillRect')) {
     }
 }
 
+if (! function_exists('cudaGL_launchFillRects')) {
+    function cudaGL_launchFillRects(CudaDevicePtr $dst, int $fbW, int $fbH, string $packed): int
+    {
+        return CudaGL::launchFillRects($dst, $fbW, $fbH, $packed);
+    }
+}
+
 if (! function_exists('cudaGL_launchWritePixel')) {
     function cudaGL_launchWritePixel(
         CudaDevicePtr $dst,
